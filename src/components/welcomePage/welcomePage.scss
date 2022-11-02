@@ -1,0 +1,123 @@
+.WelPAgeContainer{
+    width: 100%;
+    height: 100vh;
+.NavContainer{
+    margin-top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    .NavWrapper{
+        padding-left:85px;
+        padding-right: 80px;
+        .NavItems{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          .buttonsConatiner{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: -18px;
+            .signup{
+                margin-right: 25px;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 20px;
+                background-color:#fff;
+                color: #333333;
+                border: none;
+            }
+            .signin{
+                background-color:#333333;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 20px;
+                border-radius: 10px;
+                width:120px ;
+                height: 55px;
+                color: #FFC300;
+            }
+          }
+        }
+        }
+        
+    }
+.mainContainer{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    .mainContainerWrapper{
+        padding-left:85px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: row;
+        .mainContainerLeft{
+            width: 47%;
+            .smartway{
+                font-family: 'Poppins';
+                font-weight: 800;
+                font-size: 38px;
+                color: #5B5B5B;
+                margin-bottom: 25px;
+            }
+            .buy{
+                color: #FFC300;
+                font-family: 'Poppins';
+                font-weight: 800;
+                font-size: 38px;
+                margin-bottom: 105px;
+            }
+            .paragraph{
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 18px;
+                color: #333333;
+                width:470px ;
+                height: 90px;
+                text-align: justify;
+                line-height: 30px;
+            }
+            .appStoreContainer{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 48px;
+                .apple{
+                    margin-right: 14px;
+                }
+            }
+            .getStarted{
+                margin-top: 24px;
+                width: 266px;
+                height: 65px;
+                background-color: #333333;
+                border-radius: 10px;
+                font-family: 'Poppins';
+                font-weight: 500;
+                font-size: 20px;
+                color: #FFC300;
+
+            }
+
+        }
+        .mainContainerRight{
+            width: 53%;
+            background-color:green;
+            .mainContainerRightWrapper{
+                display: flex;
+                flex-direction: column;
+                .homekey{
+                    height: 62.58px;
+                    width: 232.93px;
+                }
+                .mockup{
+                    height:606.78px;
+                    width: 378.89px;
+                }
+            }
+        }
+    }
+}
+
+}

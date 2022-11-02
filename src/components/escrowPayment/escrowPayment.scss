@@ -1,0 +1,70 @@
+.ePaymentContainer{
+    background-color: #F7F7F7;
+    width: auto;
+    height: 646px;
+    .ePaymentContainerWrapper{
+        padding-left: 120px;
+        padding-right: 77px;
+        padding-top: 50px;
+        .ePaymentMainContent{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 550px;
+            .ePaymentMainContentLeft{
+                width: 50%;
+                .epaymentTitle{
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    font-size: 50px;
+                    text-align: justify;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+                .epaymentParagraph{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: justify;
+                    color: #000000;
+                    width:400px
+                }
+                .ePaymentActivitiesContainer{
+                    margin-top: 10px;
+                    .ePaymentActivityContainer{
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 20px;
+                        .activity1a{
+                            margin-right: 28px;
+                        }
+                        .activity1b{
+                            font-family: 'Poppins';
+                            font-weight: 400;
+                            font-size: 20px;
+                            text-align: justify;
+                            color: #333333;
+                            width: 311px;
+                        }
+                    }
+                }
+            }
+            .ePaymentMainContentRight{
+                width: 50%;
+                .ePaymentMainContentRightWrapper{
+                    background-image:url(../../assets/images/backgroundImage.png) ;
+                    height:422.77px;
+                    width: 628px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    .ephoneImageRight{
+                        margin-top: -60px;
+                        height:529.79px ;
+                        width:413.95px;
+                    }
+                }
+            }
+        }
+    }
+}

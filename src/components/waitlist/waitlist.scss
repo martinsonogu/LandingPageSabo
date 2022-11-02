@@ -1,0 +1,71 @@
+.waitlistContainer{
+    width: 100%;
+    height: 343px;
+    background-color: #E3EBDA;
+    .wiatlistWrapper{
+        padding-left: 128px;
+        padding-right: 120px;
+        .waitlistMainContent{
+            display: flex;
+            flex-direction: row;
+            
+            .waitlistMainContentOne{
+               margin-right: 10px;
+                .header{
+                    margin-top: 61px;
+                    font-family: 'Aclonica';
+                    font-weight: 400;
+                    font-size: 40px;
+                    color: #333333;
+                }
+                .paragraph{
+                    margin-top: 16px;
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    width: 315px;
+                    height: 60px;
+                    color: #333333;
+                    text-align: justify;
+                    margin-bottom: 16px;
+                }
+                .forwardArrowContainer{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .forwardArrow{
+                        margin-right: 21px;
+                    }
+                    .fowwardArrowText{
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 30px;
+                        color: #333333;
+    
+                    }
+                }
+            }
+            .WaitlistMainContentTwo{
+                margin-left:115px ;
+                margin-top: 30px;
+                
+                .waitlistMainContentTwoImg{
+                    height:268.84px ;
+                    width:315.83;
+                    z-index: 3;
+                }
+            }
+            .waitlistMainContentThree{
+                margin-top: 58px;
+                margin-left: -90px;
+                .waitlistMainContentThreeImg{
+                    height:283.07px;
+                    width:383px;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+    
+}

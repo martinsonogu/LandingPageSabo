@@ -1,0 +1,75 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 344px;
+  background-color: #76776f;
+  box-shadow: 0px 3.69565px 3.69565px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 20px 20px 20px;
+  backdrop-filter: blur(50px);
+  filter: blur(4px);
+}
+.swiper-slide-active{
+  filter: blur(0px);
+}
+.quotationContainer{
+  background-color: rgba(223, 233, 210, 0.59);
+  border-radius: 0px 20px 20px 0px;
+  height: 125px;
+  width: 87px;
+}
+.header{
+text-align: center;
+margin-top: -35px;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 18px;
+color: #FFFFFF;
+}
+.Paragraph{
+width: 205px;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 14px;
+text-align: justify;
+color: #FFFFFF;
+margin-top: 20px;
+}
+.TestimonialImage{
+  height: 90px;
+  width: 90px;
+  display: block;
+  margin: 0px auto;
+  object-fit: cover;
+}
+.testimonialName{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #DFF1B5;
+  text-align: center;
+}
+.testimonialPosition{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: -10px;
+}
+.swiper-3d .swiper-slide-shadow-left{
+  background-image: none;
+}
+.swiper-3d .swiper-slide-shadow-right{
+  background-image: none;
+}

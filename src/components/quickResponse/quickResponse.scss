@@ -1,0 +1,105 @@
+.quickResponseContainer{
+    width: auto;
+    height: 1000px;
+    background-color: #fff;
+    .quickResponseWrapper{
+        padding-left: 77px;
+        padding-right: 120px;
+        padding-top: 100px;
+        .quickResponseMainContent{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 550px;
+            .quickResponseMainContentLeft{ 
+                width: 50%;
+                .quickResponseMainContentLeftWrapper{
+                    margin-top: 50px;
+                    .quickResponseImageLeft{
+                        height:379.31px ;
+                        width:631.84px;
+                    }
+                }
+            }
+            .quickResponseMainContentRight{
+                width: 50%;
+                .quickResponseMainContentRightWrapper{
+                    padding-left: 80px;
+
+                    .quickResponseMCRHeader{
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 48.3765px;
+                        text-align: justify;
+                        color: #333333;
+                        margin-bottom: 15px;
+                    }
+                    .quickResponseMCRParagraph{
+                        width: 363px;
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-align: justify;
+                        color: #000000;
+                        margin-bottom: 14px;
+                    }
+                    .quickResponseMCRParagraph2{
+                        font-family: 'Poppins';
+                        font-weight: 600;
+                        font-size: 29.0259px;
+                        text-align: justify;
+                        color: #333333;
+                        width: 363px;
+                        margin-bottom: 24px;
+                    }
+                    .quickResponseSearchContainer{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .quickResponseInput{
+                            width: 250px;
+                            padding: 14px;
+                            border-top-left-radius: 10px;
+                            border-bottom-left-radius: 10px;
+                            background-color: #fff;
+                            border: 1px solid #000;
+                            font-size: 14px;
+                            font-family: 'Poppins';
+                        }
+                        .quickResponseButton{
+                            width: auto;
+                            padding: 14px;
+                            background-color: #000000;
+                            border-radius: 10px;
+                            color: #FFC300;
+                            margin-left: -8px;
+                            font-family: 'Poppins';
+                        }
+                    }
+                }
+            }
+        }
+        .quickResponseTestimonial{
+            margin-top: 100px;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 40px;
+            color: #333333;
+            text-align: center;
+        }
+        .quickResponseTestParagraph{
+            text-align: center;
+            width: 205px;
+            margin-top: -40px;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 20px;
+            color: #333333;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .quickResponseZigzag{
+            text-align: center;
+        }
+    }
+}

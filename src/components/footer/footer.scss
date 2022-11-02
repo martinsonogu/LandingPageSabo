@@ -1,0 +1,90 @@
+.footerContainer{
+    height:364px;
+    width: auto;
+    background-color: #856604;
+    .footerContainerWrapper{
+        padding-left:77px;
+        padding-top:30px ;
+        .footerContents{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .footerContent1{
+                //margin-right: 130px;
+                .footerLogo{
+                    margin-left: 30px;
+                    margin-bottom: 17px;
+                }
+                .footerContent1Paragraph{
+                    width: 209px;
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: justify;
+                    color: #FFFFFF;
+                    margin-bottom: 17px;
+                }
+                .footerGetStarted{
+                    width: 220px;
+                    border-radius: 10px;
+                    background-color: #000000;
+                    padding: 12px;
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #FFC300;
+                }
+            }
+            .footerContent2{
+                //margin-right: 149px;
+                margin-top: 15px;
+                .footerContent2Header{
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 30px;
+                    color: #FFFFFF;
+                    margin-bottom: 15px;
+                }
+                .footercontent2Links{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+                }
+            }
+            .footerContent3{
+               // margin-right: 149px;
+                margin-top: 15px;
+                .footerContent3Header{
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 30px;
+                    color: #FFFFFF;
+                    margin-bottom: 15px;
+                }
+                .footercontent3Links{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+                }
+            }
+            .footerContent4{
+                margin-top: 15px;
+                margin-right: 140px;
+                .footerContent4Header{
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 30px;
+                    color: #FFFFFF;
+                    margin-bottom: 15px;
+                }
+                .apple{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

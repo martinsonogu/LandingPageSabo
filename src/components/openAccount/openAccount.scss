@@ -1,0 +1,70 @@
+.openAccountContainer{
+    width: auto;
+    height: 700px;
+    background-color: #E3EBDA;
+    .openAccountContainerWrapper{
+        padding-left: 120px;
+        padding-right: 77px;
+        padding-top: 50px;
+        .openAccountMainContent{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 550px;
+            .openAccountMainContentLeft{
+                width: 50%;
+                .openAccountTitle{
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    font-size: 50px;
+                    text-align: justify;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+                .openAccountParagraph{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: justify;
+                    color: #000000;
+                    width:400px
+                }
+                .openAccountActivitiesContainer{
+                    margin-top: 10px;
+                    .openAccountActivityContainer{
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 20px;
+                        .OAactivity1a{
+                            margin-right: 28px;
+                        }
+                        .OAactivity1b{
+                            font-family: 'Poppins';
+                            font-weight: 400;
+                            font-size: 20px;
+                            text-align: justify;
+                            color: #333333;
+                            width: 311px;
+                        }
+                    }
+                }
+            }
+            .openAccountMainContentRight{
+                width: 50%;
+                .openAccountMainContentRightWrapper{
+                    background-image:url(../../assets/images/backgroundImage.png) ;
+                    height:422.77px;
+                    width: 628px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    .openAccountphoneImageRight{
+                        margin-top: -60px;
+                        height:529.79px ;
+                        width:413.95px;
+                    }
+                }
+            }
+        }
+    }
+}

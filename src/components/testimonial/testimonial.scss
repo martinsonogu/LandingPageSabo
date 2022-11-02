@@ -1,0 +1,63 @@
+.testimonialContainer{
+    width:auto;
+    height: 739px;
+    background-color: #fff;
+    .testimonialTop{
+       height: 669px;
+       width:auto ;
+       background-color: rgba(0,0,0,0.72);
+       .testimonialTopWrapper{
+        padding-top: 67px;
+        padding-left:100px ;
+        padding-right: 77px;
+        .TTMainContent{
+            display: flex;
+            flex-direction: row;
+            .TTMCLeftContainer{
+                margin-top: 120px;
+                margin-right: 60px;
+                .TTMCLCHeader{
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    font-size: 30px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+                }
+                .TTMCLCParagraph{
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    width: 260px;
+                }
+            }
+            .TTMCRightContainer{
+                padding: 1px;
+            }
+        }
+       }
+    }
+    .testimonialBottom{
+        height: auto;
+        width: auto;
+        .testimonialBottomWrapper{
+            margin-top: -116px;
+            padding-left:100px ;
+            padding-right: 77px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .TBImageLeft{
+                height: 218px;
+                width: 436px;
+            }
+            .TBImageRight{
+                height: 218px;
+                width: 436px;
+            }
+        }
+    }
+}

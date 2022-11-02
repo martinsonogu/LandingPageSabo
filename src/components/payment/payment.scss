@@ -1,0 +1,146 @@
+.paymentContainer{
+    background-color: #fff;
+    width: auto;
+    height: 1150px;
+    .paymentContainerWrapper{
+        padding-left: 82px;
+        padding-right: 82px;
+        .paymentTitle{
+            margin-top: 74px;
+            text-align: center;
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 40px;
+            color: #333333;
+        }
+        .paymentIntro{
+            margin-top: 15px;
+            text-align: justify;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #333333;
+            width: 683px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .zigzag{
+            text-align: center;
+            margin-top: 41px;
+        }
+        .mainPaymentContent{
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+            height: 600px;
+            width: auto;
+            .paymentContentLeft{
+                width: 50%;
+                .paymentContentLeftWrapper{
+                    background-image:url(../../assets/images/backgroundImage.png) ;
+                    height:422.77px;
+                    width: 628px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    .phoneImage{
+                        margin-top: -30px;
+                        height:529.79px ;
+                        width:413.95px;
+                        margin-top: -50px;
+                    }
+                }
+            }
+            .paymentContentRight{
+                width: 50%;
+                .paymentContentRightWrapper{
+                    padding-left: 40px;
+                    .paymentContentRightHeader{
+                        font-family: 'Poppins';
+                        font-weight: 700;
+                        font-size: 50px;
+                        color: #000000;
+                        text-align: 'left';
+                        margin-bottom: 20px;
+                    }
+                    .paymentContentRightParagraph{
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-align: justify;
+                        color: #333333;
+                        width: 400px;
+                    }
+                    .paymentContentRightTwo{
+                        margin-top: 25px;
+                        .contentRightTwoContainer{
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 20px;
+                            .CRTwoP1{
+                                margin-right: 47px;
+                            }
+                            .CRTwoP2{
+                                font-family: 'Poppins';
+                                font-weight: 400;
+                                font-size: 20px;
+                                text-align: justify;
+                                color: #333333;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .handimgContainer{
+            margin-top: -100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .handOfGod{
+                height:226px ;
+                width: 301px;
+                margin-left: -40px;
+            }
+        }
+        .buttonContainer{
+            width:774.58px ;
+            height:135.59px ;
+            background-color: #E4A951;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -70px;
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            .buttonContainerWrapper{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left:40px;
+                padding-right: 80px;
+                padding-top: 2px;
+                .button1{
+                    background-color: #F8EDCA;
+                    border-radius: 30px;
+                    padding: 20px;
+                    width: 126px;
+                    text-align: center;
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 30px;
+                    color: #333333;
+                }
+                .button{
+                    text-align: center;
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 30px;
+                    color:#FFFFFF;
+                    ;
+                }
+            }
+        }
+    }
+}
