@@ -38,7 +38,7 @@ export default function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi semper consectetur mattis egestas nec molestie
           consectetur senectus dignissim. Pulvinar volutpat sed maecenas nec eget. Nisi enim, faucibus enim, lectus velit diam.
           </p>
-          <img src={TestimonialImage} className="TestimonialImage" />
+          <img src={TestimonialImage} className="TestimonialImage" alt='' />
           <p className="testimonialName">HafSoh Omolola</p>
           <p className="testimonialPosition">CEO LegalDesigner</p>
         </SwiperSlide>
@@ -49,7 +49,7 @@ export default function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi semper consectetur mattis egestas nec molestie
           consectetur senectus dignissim. Pulvinar volutpat sed maecenas nec eget. Nisi enim, faucibus enim, lectus velit diam.
           </p>
-          <img src={TestimonialImage} className="TestimonialImage" />
+          <img src={TestimonialImage} className="TestimonialImage" alt='' />
           <p className="testimonialName">HafSoh Omolola</p>
           <p className="testimonialPosition">CEO LegalDesigner</p>
         </SwiperSlide>
@@ -60,7 +60,7 @@ export default function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi semper consectetur mattis egestas nec molestie
           consectetur senectus dignissim. Pulvinar volutpat sed maecenas nec eget. Nisi enim, faucibus enim, lectus velit diam.
           </p>
-          <img src={TestimonialImage} className="TestimonialImage" />
+          <img src={TestimonialImage} className="TestimonialImage" alt='' />
           <p className="testimonialName">HafSoh Omolola</p>
           <p className="testimonialPosition">CEO LegalDesigner</p>
         </SwiperSlide>
