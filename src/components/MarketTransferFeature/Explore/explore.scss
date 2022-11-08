@@ -1,0 +1,71 @@
+.exploreContainer{
+    width: auto;
+    height: 700px;
+    background-color: #E3EBDA;
+    .exploreContainerWrapper{
+        padding-left: 120px;
+        padding-right: 77px;
+        padding-top: 50px;
+        .exploreMainContent{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 550px;
+            .exploreMainContentLeft{
+                width: 50%;
+                .exploreTitle{
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    font-size: 50px;
+                    text-align: justify;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+                .exploreParagraph{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: justify;
+                    color: #000000;
+                    width:400px
+                }
+                .exploreActivitiesContainer{
+                    margin-top: 10px;
+                    .exploreActivityContainer{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        .exploreAactivity1a{
+                            margin-right: 28px;
+                        }
+                        .exploreAactivity1b{
+                            font-family: 'Poppins';
+                            font-weight: 400;
+                            font-size: 20px;
+                            text-align: justify;
+                            color: #333333;
+                            width: 311px;
+                        }
+                    }
+                }
+            }
+            .exploreMainContentRight{
+                width: 50%;
+                .exploreMainContentRightWrapper{
+                    background-image:url(../../../assets/images/backgroundImageBrown.png) ;
+                    height:422.77px;
+                    width: 628px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    .explorephoneImageRight{
+                        margin-top: -60px;
+                        height:529.79px ;
+                        width:413.95px;
+                    }
+                }
+            }
+        }
+    }
+}

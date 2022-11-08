@@ -1,7 +1,7 @@
 import React from 'react'
 import './openAccount.scss'
-import { CheckboxGreenSVG } from '../../assets/icons/icons'
-import Phone from '../../assets/images/Phones.png'
+import { CheckboxGreenSVG } from '../../../assets/icons/icons'
+import Phone from '../../../assets/images/openAccount.png'
 
 const openAccount = () => {
   return (

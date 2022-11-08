@@ -1,53 +1,56 @@
-.bankTransferContainer{
+.servicesContainer{
     background-color: #fff;
     width: auto;
     height: 700px;
-    .bankTransferContainerWrapper{
+    .servicesContainerWrapper{
         padding-left: 77px;
         padding-right: 120px;
         padding-top: 100px;
-        .bankTransferMainContent{
+        .servicesMainContent{
             display: flex;
             flex-direction: row;
+            align-items: center;
             width: auto;
             height: 550px;
-            .bankTransferMainContentLeft{ 
+            .servicesMainContentLeft{ 
                 width: 50%;
-                .bankTransferMainContentLeftWrapper{
-                    background-image:url(../../assets/images/backgroundImage.png) ;
+                .servicesMainContentLeftWrapper{
+                    background-image:url(../../../assets/images/backgroundImageBlack.png) ;
                     height:422.77px;
-                    width: 628px;
+                    width: 428px;
                     display: flex;
+                    background-size: contain;
+                    background-repeat:no-repeat;
                     justify-content: center;
                     margin-top: 60px;
-                    .bankTransImageLeft{
+                    .servicesImageLeft{
                         margin-top: -60px;
                         height:529.79px ;
                         width:413.95px;
                     }
                 }
             }
-            .bankTransferMainContentRight{
+            .servicesMainContentRight{
                 width: 50%;
-                .bankTransferMainContentRightWrapper{
+                .servicesMainContentRightWrapper{
                     padding: 25% 25%;
-                    .bankTransferMCRHeader{
+                    .servicesMCRHeader{
                         font-family: 'Poppins';
                         font-weight: 700;
                         font-size: 50px;
                         text-align: justify;
                         color: #000000;
-                        width: 375px;
+                        width: auto;
                         margin-bottom: 15px;
                     }
-                    .bankTransferMCRParagraph{
-                        width: 363px;
+                    .servicesMCRParagraph{
+                        width: 390px;
                         font-family: 'Poppins';
                         font-weight: 400;
                         font-size: 20px;
                         text-align: justify;
                         color: #000000;
-
+                        line-height: 150%;
                     }
                 }
             }

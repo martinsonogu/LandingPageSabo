@@ -1,0 +1,56 @@
+.bankTransferContainer{
+    background-color: #fff;
+    width: auto;
+    height: 700px;
+    .bankTransferContainerWrapper{
+        padding-left: 77px;
+        padding-right: 120px;
+        padding-top: 100px;
+        .bankTransferMainContent{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 550px;
+            .bankTransferMainContentLeft{ 
+                width: 50%;
+                .bankTransferMainContentLeftWrapper{
+                    background-image:url(../../../assets/images/backgroundImage.png) ;
+                    height:422.77px;
+                    width: 628px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    .bankTransImageLeft{
+                        margin-top: -60px;
+                        height:529.79px ;
+                        width:413.95px;
+                    }
+                }
+            }
+            .bankTransferMainContentRight{
+                width: 50%;
+                .bankTransferMainContentRightWrapper{
+                    padding: 25% 25%;
+                    .bankTransferMCRHeader{
+                        font-family: 'Poppins';
+                        font-weight: 700;
+                        font-size: 50px;
+                        text-align: justify;
+                        color: #000000;
+                        width: 375px;
+                        margin-bottom: 15px;
+                    }
+                    .bankTransferMCRParagraph{
+                        width: 363px;
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 20px;
+                        text-align: justify;
+                        color: #000000;
+
+                    }
+                }
+            }
+        }
+    }
+}

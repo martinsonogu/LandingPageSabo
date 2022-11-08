@@ -15,15 +15,12 @@
         }
         .paymentIntro{
             margin-top: 15px;
-            text-align: justify;
+            text-align: center;
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 18px;
             line-height: 27px;
             color: #333333;
-            width: 683px;
-            margin-left: auto;
-            margin-right: auto;
         }
         .zigzag{
             text-align: center;
@@ -32,23 +29,25 @@
         .mainPaymentContent{
             display: flex;
             flex-direction: row;
+            align-items: center;
             margin-top: 80px;
             height: 600px;
             width: auto;
             .paymentContentLeft{
                 width: 50%;
                 .paymentContentLeftWrapper{
-                    background-image:url(../../assets/images/backgroundImage.png) ;
+                    background-image:url(../../../assets/images/backgroundImageBlack.png) ;
                     height:422.77px;
-                    width: 628px;
+                    width: 428px;
                     display: flex;
+                    background-size: contain;
+                    background-repeat:no-repeat;
                     justify-content: center;
                     margin-top: 60px;
                     .phoneImage{
-                        margin-top: -30px;
-                        height:529.79px ;
-                        width:413.95px;
-                        margin-top: -50px;
+                       height:529.79px ;
+                        width:513.95px;
+                        margin-top: -100px;
                     }
                 }
             }
@@ -71,26 +70,9 @@
                         text-align: justify;
                         color: #333333;
                         width: 400px;
+                        line-height: 150%;
                     }
-                    .paymentContentRightTwo{
-                        margin-top: 25px;
-                        .contentRightTwoContainer{
-                            display: flex;
-                            flex-direction: row;
-                            margin-bottom: 20px;
-                            .CRTwoP1{
-                                margin-right: 47px;
-                            }
-                            .CRTwoP2{
-                                font-family: 'Poppins';
-                                font-weight: 400;
-                                font-size: 20px;
-                                text-align: justify;
-                                color: #333333;
-
-                            }
-                        }
-                    }
+                    
                 }
             }
         }
@@ -122,15 +104,15 @@
                 padding-right: 80px;
                 padding-top: 2px;
                 .button1{
-                    background-color: #F8EDCA;
+                    background-color: #5B5B5B;
                     border-radius: 30px;
-                    padding: 20px;
-                    width: 126px;
+                    padding: 20px 10px;
+                    width: 200px;
                     text-align: center;
                     font-family: 'Poppins';
                     font-weight: 500;
                     font-size: 30px;
-                    color: #333333;
+                    color: #FFF;
                 }
                 .button{
                     text-align: center;

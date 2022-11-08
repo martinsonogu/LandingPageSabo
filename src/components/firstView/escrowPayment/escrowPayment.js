@@ -1,7 +1,7 @@
 import React from 'react'
 import './escrowPayment.scss'
-import { CheckboxSVG } from '../../assets/icons/icons'
-import Phone from '../../assets/images/Phones.png'
+import { CheckboxSVG } from '../../../assets/icons/icons'
+import Phone from '../../../assets/images/Phones.png'
 
 const escrowPayment = () => {
   return (

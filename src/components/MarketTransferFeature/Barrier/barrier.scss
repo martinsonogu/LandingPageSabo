@@ -1,0 +1,71 @@
+.barrierContainer{
+    background-color: #F7F7F7;
+    width: auto;
+    height: 646px;
+    .barrierContainerWrapper{
+        padding-left: 120px;
+        padding-right: 77px;
+        padding-top: 50px;
+        .barrierMainContent{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 550px;
+            .barrierMainContentLeft{
+                width: 50%;
+                .barrierTitle{
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    font-size: 50px;
+                    text-align: justify;
+                    color: #000000;
+                    margin-bottom: 15px;
+                }
+                .barrierParagraph{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: justify;
+                    color: #000000;
+                    width:450px
+                }
+                .barrierActivitiesContainer{
+                    margin-top: 10px;
+                    .barrierActivityContainer{
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 15px;
+                        align-items: center;
+                        .barrieractivity1a{
+                            margin-right: 28px;
+                        }
+                        .barrieractivity1b{
+                            font-family: 'Poppins';
+                            font-weight: 400;
+                            font-size: 20px;
+                            text-align: justify;
+                            color: #333333;
+                            width: 330px;
+                        }
+                    }
+                }
+            }
+            .ePaymentMainContentRight{
+                width: 50%;
+                .ePaymentMainContentRightWrapper{
+                    background-image:url(../../../assets/images/backgroundImageBrown.png) ;
+                    height:422.77px;
+                    width: 628px;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    .ephoneImageRight{
+                        margin-top: -60px;
+                        height:529.79px ;
+                        width:413.95px;
+                    }
+                }
+            }
+        }
+    }
+}

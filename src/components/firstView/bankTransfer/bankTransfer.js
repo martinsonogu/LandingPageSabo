@@ -1,6 +1,6 @@
 import React from 'react'
 import './banktransfer.scss'
-import Phone from '../../assets/images/Phones.png'
+import Phone from '../../../assets/images/bankTransfer.png'
 
 const bankTransfer = () => {
   return (

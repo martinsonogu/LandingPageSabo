@@ -1,8 +1,8 @@
 import React from 'react'
 import './payment.scss'
-import {SendSVG, ZigzagSVG, PayBillSVG, BanktransferSVG, SubscribeSVG} from '../../assets/icons/icons'
-import Phone from '../../assets/images/Phones.png'
-import HandOfGod from '../../assets/images/HandOfGod.png'
+import {SendSVG, ZigzagSVG, PayBillSVG, BanktransferSVG, SubscribeSVG} from '../../../assets/icons/icons'
+import Phone from '../../../assets/images/escrowPayment.png'
+import HandOfGod from '../../../assets/images/HandOfGod.png'
 
 const payment = () => {
   return (

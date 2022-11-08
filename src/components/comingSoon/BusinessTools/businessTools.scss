@@ -1,19 +1,20 @@
-.ePaymentContainer{
+.barrierContainer{
     background-color: #F7F7F7;
     width: auto;
     height: 646px;
-    .ePaymentContainerWrapper{
+    .barrierContainerWrapper{
         padding-left: 120px;
         padding-right: 77px;
         padding-top: 50px;
-        .ePaymentMainContent{
+        .barrierMainContent{
             display: flex;
             flex-direction: row;
+            align-items: center;
             width: auto;
             height: 550px;
-            .ePaymentMainContentLeft{
+            .barrierMainContentLeft{
                 width: 50%;
-                .epaymentTitle{
+                .barrierTitle{
                     font-family: 'Poppins';
                     font-weight: 700;
                     font-size: 50px;
@@ -21,41 +22,25 @@
                     color: #000000;
                     margin-bottom: 15px;
                 }
-                .epaymentParagraph{
+                .barrierParagraph{
                     font-family: 'Poppins';
                     font-weight: 400;
                     font-size: 20px;
                     text-align: justify;
                     color: #000000;
-                    width:400px
+                    width:450px
                 }
-                .ePaymentActivitiesContainer{
-                    margin-top: 10px;
-                    .ePaymentActivityContainer{
-                        display: flex;
-                        flex-direction: row;
-                        margin-bottom: 20px;
-                        .activity1a{
-                            margin-right: 28px;
-                        }
-                        .activity1b{
-                            font-family: 'Poppins';
-                            font-weight: 400;
-                            font-size: 20px;
-                            text-align: justify;
-                            color: #333333;
-                            width: 311px;
-                        }
-                    }
-                }
+               
             }
             .ePaymentMainContentRight{
                 width: 50%;
                 .ePaymentMainContentRightWrapper{
-                    background-image:url(../../assets/images/backgroundImage.png) ;
+                    background-image:url(../../../assets/images/backgroundImageBlack.png) ;
+                    width: 428px;
                     height:422.77px;
-                    width: 628px;
                     display: flex;
+                    background-size: contain;
+                    background-repeat:no-repeat;
                     justify-content: center;
                     margin-top: 60px;
                     .ephoneImageRight{
